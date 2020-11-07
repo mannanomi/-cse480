@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		div{
+			margin-top: 50px;
+			display:flex;
+			justify-content: center;
+		}
+		table{
+			width: 300px;
+		}
+		table, th, td {
+		  border: 4px solid #000000;
+		  border-collapse: collapse;
+
+		}
+		th, td {
+		  text-align: left;    
+		}
+
+	</style>
+
+</head>
+<body>
+	
+	<div>
+		<table>
+		  	<tr>
+		  		<td>data1</td>
+		  		<td>data1</td>
+		  		<td>data1</td>
+		  	</tr>
+		  	<tr>
+		  		<td>data1</td>
+		  		<td colspan="2">data2</td>
+		  	</tr>
+		  	<tr>
+		  		<td rowspan="2">data2</td>
+		  		<td colspan="2">data2</td>
+		  	</tr>
+		  	<tr>
+		  		<td colspan="2" rowspan="2">data1 <br> data2</td>
+		  	</tr>
+		  	<tr>
+		  		<td>data1</td>
+		  	</tr>
+		  	<tr>
+		  		<td colspan="3">data3 <br> data3</td>
+		  	</tr>
+		</table>
+	</div>
+</body>
+</html>
